@@ -481,14 +481,14 @@ function App() {
           <div className="footer-content">
 
             <div>
-              <h3>Expense Tracker</h3>
+              <h3>Our Monthly Expenses Tracker</h3>
               <p>
                 Track your expenses. Manage your money wisely.
               </p>
             </div>
 
             <div className="footer-right">
-              <span>Made with ❤️</span>
+              <span>Made with Alvi</span>
               <p>© 2026 Expense Tracker. All rights reserved.</p>
             </div>
 
