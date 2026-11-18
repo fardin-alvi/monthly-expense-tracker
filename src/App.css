@@ -458,3 +458,33 @@ tfoot {
     font-size: 26px;
   }
 }
+
+/* FIX: Input field text and background color */
+
+.month-section input,
+.input-group input,
+.input-group select {
+  background-color: #ffffff;
+  color: #111827;
+  font-weight: 500;
+  border: 1px solid #cbd5e1;
+}
+
+/* Month and Date picker icon */
+input[type="date"],
+input[type="month"] {
+  color-scheme: light;
+  color: #111827;
+}
+
+/* Dropdown options */
+.input-group select option {
+  color: #111827;
+  background-color: #ffffff;
+}
+
+/* Placeholder text */
+.input-group input::placeholder {
+  color: #64748b;
+  opacity: 1;
+}
